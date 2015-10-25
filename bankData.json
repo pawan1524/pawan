@@ -1,0 +1,85 @@
+{
+    "Lloyds": [{
+        "Monthly Payment": 500,
+        "Start Date": "01/01/2015",
+	"End Date": "31/12/2017",
+	"Interest Rate": "5.33%",
+	"Fee": 0
+    },{
+        "Monthly Payment": 380,
+        "Start Date": "21/11/2013",
+	"End Date": "20/11/2016",
+	"Interest Rate": "7.33%",
+	"Fee": 50
+    },{
+        "Monthly Payment": 380,
+        "Start Date": "21/11/2014",
+	"End Date": "20/11/2016",
+	"Interest Rate": "6.33%",
+	"Fee": 50
+    }
+    ],
+    "Halifax": {
+        "Monthly Payment": 400,
+        "Start Date": "02/01/2015",
+	"End Date": "30/11/2018",
+	"Interest Rate": "8.33%",
+	"Fee": 0
+    },
+    "BoS": {
+        "Monthly Payment": 800,
+        "Start Date": "01/02/2012",
+	"End Date": "31/10/2017",
+	"Interest Rate": "5.13%",
+	"Fee": 0
+    },
+    "HSBC": {
+        "Monthly Payment": 350,
+        "Start Date": "10/01/2015",
+	"End Date": "25/12/2016",
+	"Interest Rate": "9.33%",
+	"Fee": 0
+    },
+    "Barclays": [{
+        "Monthly Payment": 650,
+        "Start Date": "01/01/2014",
+	"End Date": "31/12/2015",
+	"Interest Rate": "7.53%",
+	"Fee": 0
+    },{
+        "Monthly Payment": 880,
+        "Start Date": "27/11/2015",
+	"End Date": "20/11/2016",
+	"Interest Rate": "6.50%",
+	"Fee": 50
+    }
+    ],
+    "Santander": {
+        "Monthly Payment": 550,
+        "Start Date": "01/04/2015",
+	"End Date": "10/12/2017",
+	"Interest Rate": "4.83%",
+	"Fee": 0
+    },
+    "RBS": [{
+        "Monthly Payment": 700,
+        "Start Date": "05/05/2013",
+	"End Date": "05/05/2017",
+	"Interest Rate": "9.33%",
+	"Fee": 100
+    },{
+        "Monthly Payment": 1000,
+        "Start Date": "05/07/2012",
+	"End Date": "05/08/2018",
+	"Interest Rate": "6.73%",
+	"Fee": 150
+    }
+    ],
+    "SC": {
+        "Monthly Payment": 900,
+        "Start Date": "03/03/2014",
+	"End Date": "11/11/2016",
+	"Interest Rate": "5.33%",
+	"Fee": 0
+    }
+}

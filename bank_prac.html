@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="main.js"></script>
+
+<link rel="stylesheet" href="styles_prac.css"/>
+
+
+<script>
+function getData(){
+$.ajax({
+	  type: 'GET',
+	  url: 'bankData.json',
+	  dataType: 'json',
+	  success: function (bankJson){
+	  	
+	  },
+	  failure: function(){
+	  	console.log ("error");
+	  } 	  
+	});		
+}
+	
+	
+	
+	
+	
+	
+	
+	
+</script>
+
+</head>
+<body>
+	<div class="main-content">
+		<h1>Bank Details</h1>
+		<div>
+			<button class="data-filter">Bank Data Filter</button>
+		</div>
+		
+		
+		
+		
+		
+	</div>
+	
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="basic_valid.js"></script>
+
+<link rel="stylesheet" href="styles_prac.css"/>
+
+<style>
+.commonLeftWrapper {
+	width: 20%;
+	float: left;
+}
+.commonFormRightWrapper {
+	width: 60%;
+	float: left;
+}
+.commonFormLabel {
+	margin-bottom: 15px;
+}
+.commonFormInput {
+	margin-bottom: 15px;
+}
+.commonFormTitle{
+	margin-bottom: 20px;
+}
+
+</style>
+
+</head>
+<body>
+	<div class="commonFormWrapper">
+		<div class="commonFormTitle">Basic Form Validation</div>
+		<div class="commonLeftWrapper">
+			<div class="commonFormLabel">Name:</div>
+			<div class="commonFormLabel">Phone Number:</div>
+			<div class="commonFormLabel">Email:</div>
+			<div class="commonFormLabel">Comment:</div>			
+		</div>		
+	</div>
+	
+	<div class="commonFormRightWrapper">
+	<form>
+		<input id="commentName" onkeyup="validateName()" class="commonFormInput" type="text"/><label id="commentNamePrompt"></label><br/>
+		<input id="commentPhone" onkeyup="validatePhone()" class="commonFormInput" type="text"/><label id="commentPhonePrompt"></label><br/>
+		<input class="commonFormInput" type="text"/><label></label><br/>
+		<textarea class="commonFormTextArea"></textarea><br/>	
+		</form>	
+	</div>
+	
+</body>
+</html>
